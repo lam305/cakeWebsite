@@ -1,0 +1,94 @@
+#main #right {
+    float: right;
+    width: 75%;
+    min-height: 400px;
+}
+
+#main #right ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #right ul li {
+    list-style: none;
+    padding: 0px 2rem 3rem 2rem;
+    color: black;
+}
+
+#main #right h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+}
+
+#main #right ul li img {
+    width: 100%;
+}
+
+#main #right figure {
+    border: 1px #0a0a0a solid;
+    padding: 4px;
+    margin: auto;
+}
+
+#main #right figcaption {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#main #right ul li {
+    font-size: 2rem;
+    color: #000;
+}
+
+#main #right ul li p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+#main #right ul li h2 {
+    clear: both;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    #main #right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #main #right ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    #main #right h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        color: rgb(248, 242, 242);
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #main #right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #main #right ul li p {
+        font-size: 1rem;
+        color: black;
+    }
+    #main #right ul li {
+        font-size: 1.5rem;
+        color: #000;
+    }
+    #main #right h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        color: rgb(248, 242, 242);
+        background-color: black;
+    }
+}
